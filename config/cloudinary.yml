@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dtxam53uz
+  api_key: '652441437488924'
+  api_secret: qNuJk5DfocBDd52B0emcCK_EDUo
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dtxam53uz
+  api_key: '652441437488924'
+  api_secret: qNuJk5DfocBDd52B0emcCK_EDUo
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dtxam53uz
+  api_key: '652441437488924'
+  api_secret: qNuJk5DfocBDd52B0emcCK_EDUo
+  enhance_image_tag: true
+  static_image_support: false

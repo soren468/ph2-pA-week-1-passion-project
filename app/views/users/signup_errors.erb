@@ -1,0 +1,8 @@
+<ul style="color:red;">
+  <% @user.errors.messages.each do |field, message| %>
+    <li><%= field %> <%= message.first %></li>
+  <% end %>
+  <% if @mismatched_passwords %>
+    <li>Passwords must match</li>
+  <% end %>
+</ul>

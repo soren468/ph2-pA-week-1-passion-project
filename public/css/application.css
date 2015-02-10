@@ -1,0 +1,51 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-image: url("/img/space_background.jpg");
+  background-size: 100%;
+}
+
+header {
+  padding: 40px;
+}
+
+.loginerrors {
+  margin-top: 10px;
+  padding: 5px;
+  color: red;
+  background-color: rgba(255,255,255,0.5);
+  display: inline-block;
+}
+
+.button {
+  border: 1px solid black;
+  box-shadow: 5px 5px 5px black;
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  background-color: #CCCCCC;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#content {
+  background-color: rgba(255,255,255,0.5);
+  background-repeat: none;
+  max-width: 400px;
+  padding: 20px;
+  margin: auto;
+}
+
+#content img {
+  border: 1px solid black;
+  margin-top: 10px;
+  width: 100%;
+  box-shadow: 5px 5px 5px black;
+}
+
+form.signup ul {
+  list-style-type: none;
+}
+
+a {
+  color: black;
+}

@@ -1,0 +1,20 @@
+<div>
+  <a class="button" href="/images">Find</a>
+  <a class="button" href="/images/new">Upload</a>
+  <% if !logged_in? %>
+    <a class="button" href="/users/new">Sign Up</a>
+  <% end %>
+  <span style="float:right;">
+    <% if logged_in? %>
+      <a class="button" href="/users/<%= current_user.id %>"><%= current_user.user_name %></a>
+      <a class="button" href="/users/logout">Log Out</a>
+    <% else %>
+      <form class="login" onsubmit="login(); return false">
+        <input type="text" name="user_name" placeholder="User Name">
+        <input type="password" name="password" placeholder="Password">
+        <input type="submit" value="Log In">
+      </form>
+    <% end %>
+    <span class="loginerrors"></span>
+  </span>
+</div>
